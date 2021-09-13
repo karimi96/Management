@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">recyclerview</string>
+
+
+    <string name="setting">تنظیمات</string>
+    <string name="dideban">دیده بان</string>
+    <string name="numofquestion">تعداد سوالات</string>
+    <string name="numofuser">تعداد کاربران</string>
+    <string name="solve">حل شده</string>
+    <string name="allrequest">همه درخواست ها</string>
+    <string name="serching">درحال بررسی</string>
+    <string name="cancel">لغو شده</string>
+    <string name="listofuser">لیست کاربران </string>
+    <string name="listofquestion"> لیست سوالات</string>
+    <string name="request">درخواست ها</string>
+
 </resources>
