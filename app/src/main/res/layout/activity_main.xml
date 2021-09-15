@@ -386,6 +386,7 @@
                     android:layout_gravity="center"
                     android:src="@drawable/ic_port" />
                 <TextView
+                    android:id="@+id/tv_listuser"
                     android:text="@string/listofquestion"
                     android:textSize="25dp"
                     android:textColor="@color/black"
@@ -481,6 +482,7 @@
                     android:layout_gravity="center"
                     android:src="@drawable/ic_port" />
                 <TextView
+                    android:id="@+id/tv_request"
                     android:text="@string/listofquestion"
                     android:textSize="25dp"
                     android:textColor="@color/black"

@@ -14,4 +14,9 @@
     <string name="listofquestion"> لیست سوالات</string>
     <string name="request">درخواست ها</string>
 
+    <string name="nameUser">نام کاربر :</string>
+    <string name="phone">تلفن :</string>
+    <string name="adress"> ادرس :</string>
+    <string name="numofRequest">تعداد درخواست ها :</string>
+
 </resources>
