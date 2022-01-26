@@ -5,78 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".ListRequest_defult">
 
 
         <LinearLayout
-            android:layout_marginHorizontal="15dp"
+            android:layout_marginHorizontal="11dp"
             android:orientation="horizontal"
-            android:layout_weight="0.5"
+            android:weightSum="2"
+            android:padding="6dp"
+            android:background="@color/white"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            tools:ignore="Suspicious0dp">
+            android:layout_height="wrap_content">
 
-                <ImageView
-                    android:id="@+id/imag_back_defult"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="right"
-                    android:layout_weight="1"
-                    android:src="@drawable/ic_forward_black_24dp" />
+                        <ImageView
+                            android:id="@+id/imag_back_defult"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_forward_black" />
 
-                <TextView
-                    android:textSize="18dp"
-                    android:padding="5dp"
-                    android:typeface="sans"
-                    android:textStyle="bold"
-                    android:gravity="center_vertical"
-                    android:text="لیست درخاست های پیش فرض"
-                    android:layout_weight="2"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"/>
-
-
+                        <TextView
+                            android:textSize="16dp"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            android:fontFamily="@font/irsans"
+                            android:text="لیست درخواست های پیش فرض"
+                            android:width="0dp"
+                            android:textColor="@color/black_num"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"/>
         </LinearLayout>
-
-        <LinearLayout
-            android:background="@color/white_inside"
-            android:layout_weight="9"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            tools:ignore="Suspicious0dp">
 
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recycler_defult"
+                    android:layout_marginHorizontal="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:padding="10sp" />
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   />
 
-
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:elevation="18dp"
-            android:layout_weight="0.75"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            tools:ignore="Suspicious0dp">
-
-            <Button
-                android:background="@color/blue_bg"
-                android:text="افزدن درخواست (پیش فرض)"
-                android:textSize="18dp"
-                android:textColor="@color/white"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
-
-        </LinearLayout>
-
-
-
-
+                <Button
+                    android:background="@color/blue_bg"
+                    android:text="افزودن درخواست (پیش فرض)"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/irsans"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"/>
 
 
 

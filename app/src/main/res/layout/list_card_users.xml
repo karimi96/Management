@@ -8,8 +8,9 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         app:cardCornerRadius="10sp"
-        app:cardElevation="6sp"
+        app:cardElevation="6dp"
         android:layout_margin="10sp"
+        android:outlineSpotShadowColor="#246DFF"
         android:layout_marginHorizontal="13sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -33,6 +34,7 @@
                             android:textSize="14sp"
                             android:padding="5sp"
                             android:textColor="@color/black_num"
+                            android:fontFamily="@font/irsansfanum"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             />
@@ -40,7 +42,7 @@
                             android:padding="5sp"
                             android:text="@string/nameUser"
                             android:gravity="center"
-                            android:fontFamily="@fonts/IranNastaliq"
+                            android:fontFamily="@font/irsans"
                             android:textColor="@color/black_text"
                             android:textSize="14sp"
                             android:layout_width="wrap_content"
@@ -61,6 +63,7 @@
                     android:text="09121763521"
                     android:textSize="14sp"
                     android:padding="5sp"
+                    android:fontFamily="@font/irsansfanum"
                     android:textColor="@color/black_num"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -71,6 +74,7 @@
                     android:gravity="center"
                     android:textColor="@color/black_text"
                     android:textSize="14sp"
+                    android:fontFamily="@font/irsans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     />
@@ -89,6 +93,7 @@
                     android:text="15خرداد کوچه39 پلاک 57"
                     android:textSize="14sp"
                     android:padding="5sp"
+                    android:fontFamily="@font/irsansfanum"
                     android:textColor="@color/black_num"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -99,6 +104,7 @@
                     android:gravity="center"
                     android:textColor="@color/black_text"
                     android:textSize="14sp"
+                    android:fontFamily="@font/irsans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     />
@@ -116,6 +122,7 @@
                     android:text="48"
                     android:textSize="14sp"
                     android:padding="5sp"
+                    android:fontFamily="@font/irsansfanum"
                     android:textColor="@color/black_num"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -126,6 +133,7 @@
                     android:gravity="center"
                     android:textColor="@color/black_text"
                     android:textSize="14sp"
+                    android:fontFamily="@font/irsans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     />
