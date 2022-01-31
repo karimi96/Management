@@ -2,7 +2,6 @@ package com.example.recyclerview;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -24,7 +23,5 @@ public class Splash extends AppCompatActivity {
                 finish();
             }
         },3000);
-
-
     }
 }
