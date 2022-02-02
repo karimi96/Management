@@ -3,7 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/border_tv_call_massage.xml" value="0.2203125" />
         <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/cardview_shap.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/dialog_bg.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_chat_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_cog.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_forward_black.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_forward_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_group.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_local_phone_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_manage_accounts_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_management.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_people_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_port.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_questionnaire.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_quiz_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_request_page_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_setting.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/management_background.xml" value="0.2203125" />
         <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/drawable/ripple_btn.xml" value="0.2203125" />
         <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/layout/activity_list_request_defult.xml" value="0.16576086956521738" />
         <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/layout/activity_list_request_users.xml" value="0.16530797101449277" />
@@ -13,6 +35,9 @@
         <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/layout/list_card_request_defult.xml" value="0.16576086956521738" />
         <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/layout/list_card_request_users.xml" value="0.16576086956521738" />
         <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/layout/list_card_users.xml" value="0.16576086956521738" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/mipmap-anydpi-v26/management.xml" value="0.1125" />
+        <entry key="..\:/new/Root/AndroidStudio/New Version/Management/app/src/main/res/mipmap-anydpi-v26/management_round.xml" value="0.1125" />
         <entry key="..\:/new/Root/AndroidStudio/git/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>

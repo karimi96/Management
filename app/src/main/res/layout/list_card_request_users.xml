@@ -23,20 +23,21 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:orientation="vertical"
-            android:padding="5sp">
+            android:paddingVertical="5dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingHorizontal="7dp">
 
                 <TextView
                     android:id="@+id/tv_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/irsans"
-                    android:padding="3sp"
+                    android:padding="3dp"
                     android:text="محمد خواستار"
                     android:textColor="@color/black_num"
                     android:textSize="14dp" />
@@ -46,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/irsans"
                     android:gravity="center"
-                    android:padding="3sp"
+                    android:padding="3dp"
                     android:text="@string/nameUser"
                     android:textColor="@color/black_text"
                     android:textSize="14dp" />
@@ -54,18 +55,18 @@
             </LinearLayout>
 
             <LinearLayout
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingHorizontal="7dp">
 
                 <TextView
                     android:id="@+id/tv_phone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/irsansfanum"
-                    android:padding="3sp"
+                    android:padding="3dp"
                     android:text="09121763521"
                     android:textColor="@color/black_num"
                     android:textSize="14sp" />
@@ -75,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/irsans"
                     android:gravity="center"
-                    android:padding="3sp"
+                    android:padding="3dp"
                     android:text="@string/phone"
                     android:textColor="@color/black_text"
                     android:textSize="14sp" />
@@ -83,28 +84,28 @@
             </LinearLayout>
 
             <LinearLayout
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingHorizontal="7dp">
 
                 <TextView
                     android:id="@+id/tv_adress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/irsans"
+                    android:fontFamily="@font/irsansfanum"
                     android:padding="3dp"
-                    android:text="15خرداد کوچه39 پلاک 57"
+                    android:text="قم،ازادگان،خیابان نواب،کوچه 15"
                     android:textColor="@color/black_num"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/irsans"
                     android:gravity="center"
-                    android:padding="3sp"
+                    android:padding="3dp"
                     android:text="@string/adress"
                     android:textColor="@color/black_text"
                     android:textSize="14sp" />
@@ -112,31 +113,31 @@
             </LinearLayout>
 
             <LinearLayout
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingHorizontal="7dp">
 
                 <TextView
                     android:id="@+id/tv_request"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/irsans"
-                    android:padding="3sp"
+                    android:fontFamily="@font/irsansfanum"
+                    android:padding="3dp"
                     android:text="48"
                     android:textColor="@color/black_num"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/irsans"
                     android:gravity="center"
-                    android:padding="3sp"
+                    android:padding="3dp"
                     android:text="@string/numofRequest"
                     android:textColor="@color/black_text"
-                    android:textSize="14sp" />
+                    android:textSize="14dp" />
 
             </LinearLayout>
 
@@ -156,10 +157,12 @@
                         android:id="@+id/tv_massage"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/border_tv_call_massage"
                         android:drawableLeft="@drawable/ic_chat_black_24dp"
                         android:drawablePadding="5dp"
                         android:fontFamily="@font/irsans"
                         android:gravity="center"
+                        android:paddingVertical="2dp"
                         android:text="پیام"
                         android:textColor="@color/blue_bg"
                         android:textSize="14dp" />
@@ -170,7 +173,6 @@
                     android:id="@+id/linear_call"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginRight="2dp"
                     android:layout_weight="1"
                     android:gravity="right|center_vertical">
 
@@ -179,14 +181,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
+                        android:background="@drawable/border_tv_call_massage"
                         android:drawableLeft="@drawable/ic_local_phone_black_24dp"
-                        android:drawablePadding="5dp"
                         android:fontFamily="@font/irsans"
                         android:gravity="center"
-                        android:padding="2dp"
+                        android:paddingVertical="2dp"
                         android:text="تماس"
                         android:textColor="@color/blue_bg"
-                        android:textSize="14sp" />
+                        android:textSize="14dp" />
 
 
                 </LinearLayout>
