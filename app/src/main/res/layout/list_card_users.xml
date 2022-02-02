@@ -1,155 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        app:cardCornerRadius="10sp"
-        app:cardElevation="6dp"
-        android:layout_margin="10sp"
-        android:outlineSpotShadowColor="#246DFF"
-        android:layout_marginHorizontal="13sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:outlineSpotShadowColor="#246DFF"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="4dp">
 
         <LinearLayout
-            android:padding="5sp"
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5sp">
 
             <LinearLayout
-
-                android:gravity="right"
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
 
-                        <TextView
-                            android:id="@+id/tv_name"
-                            android:text="محمد خواستار"
-                            android:textSize="14sp"
-                            android:padding="5sp"
-                            android:textColor="@color/black_num"
-                            android:fontFamily="@font/irsansfanum"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            />
-                        <TextView
-                            android:padding="5sp"
-                            android:text="@string/nameUser"
-                            android:gravity="center"
-                            android:fontFamily="@font/irsans"
-                            android:textColor="@color/black_text"
-                            android:textSize="14sp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            />
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/irsansfanum"
+                    android:padding="3dp"
+                    android:text="محمد خواستار"
+                    android:textColor="@color/black_num"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/irsans"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/nameUser"
+                    android:textColor="@color/black_text"
+                    android:textSize="14dp" />
 
             </LinearLayout>
 
             <LinearLayout
 
-                android:gravity="right"
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/tv_phone"
-                    android:text="09121763521"
-                    android:textSize="14sp"
-                    android:padding="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/irsansfanum"
+                    android:padding="3dp"
+                    android:text="09121763521"
                     android:textColor="@color/black_num"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
+                    android:textSize="14dp" />
+
                 <TextView
-                    android:padding="5sp"
-                    android:text="@string/phone"
-                    android:gravity="center"
-                    android:textColor="@color/black_text"
-                    android:textSize="14sp"
-                    android:fontFamily="@font/irsans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    />
+                    android:fontFamily="@font/irsans"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/phone"
+                    android:textColor="@color/black_text"
+                    android:textSize="14dp" />
 
             </LinearLayout>
 
             <LinearLayout
 
-                android:gravity="right"
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/tv_adress"
-                    android:text="15خرداد کوچه39 پلاک 57"
-                    android:textSize="14sp"
-                    android:padding="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/irsansfanum"
+                    android:padding="3dp"
+                    android:text="15 خرداد کوچه39 پلاک 57"
                     android:textColor="@color/black_num"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
+                    android:textSize="14dp" />
+
                 <TextView
-                    android:padding="5sp"
-                    android:text="@string/adress"
-                    android:gravity="center"
-                    android:textColor="@color/black_text"
-                    android:textSize="14sp"
-                    android:fontFamily="@font/irsans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    />
+                    android:fontFamily="@font/irsans"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/adress"
+                    android:textColor="@color/black_text"
+                    android:textSize="14dp" />
 
             </LinearLayout>
+
             <LinearLayout
 
-                android:gravity="right"
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/tv_request"
-                    android:text="48"
-                    android:textSize="14sp"
-                    android:padding="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/irsansfanum"
+                    android:padding="3dp"
+                    android:text="48"
                     android:textColor="@color/black_num"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
+                    android:textSize="14dp" />
+
                 <TextView
-                    android:padding="5sp"
-                    android:text="@string/numofRequest"
-                    android:gravity="center"
-                    android:textColor="@color/black_text"
-                    android:textSize="14sp"
-                    android:fontFamily="@font/irsans"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    />
+                    android:fontFamily="@font/irsans"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/numofRequest"
+                    android:textColor="@color/black_text"
+                    android:textSize="14dp" />
 
             </LinearLayout>
-
-
-
-
-
-
 
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
 
 
 </LinearLayout>

@@ -3,9 +3,7 @@ package com.example.recyclerview;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class AdapterRequestDefult extends RecyclerView.Adapter<AdapterRequestDefult.ViewHolder>{
@@ -29,13 +27,10 @@ public class AdapterRequestDefult extends RecyclerView.Adapter<AdapterRequestDef
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView number;
-        TextView text ;
 
         public ViewHolder( View itemView) {
             super(itemView);
-            number = itemView.findViewById(R.id.tv_number);
-            text = itemView.findViewById(R.id.tv_defult);
+
         }
     }
 }
