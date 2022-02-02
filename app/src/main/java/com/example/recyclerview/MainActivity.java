@@ -17,8 +17,7 @@ public class MainActivity extends AppCompatActivity {
         initID();
         initOnClick();
     }
-
-
+    
     private void initID(){
         linear_list_user = findViewById(R.id.lenear_card_list_user);
         linear_request = findViewById(R.id.lenear_card_request);
@@ -28,18 +27,18 @@ public class MainActivity extends AppCompatActivity {
 
     private void initOnClick(){
         linear_list_user.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this,ListUsers.class);
-            startActivity(intent);
+            startActivity(new Intent(MainActivity.this,ListUsers.class));
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         });
 
         linear_request.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this,ListRequestUsers.class);
-            startActivity(intent);
+            startActivity(new Intent(MainActivity.this,ListRequestUsers.class));
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         });
 
         linear_list_question.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this,ListRequest_defult.class);
-            startActivity(intent);
+            startActivity( new Intent(MainActivity.this,ListRequest_defult.class));
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         });
     }
 }
