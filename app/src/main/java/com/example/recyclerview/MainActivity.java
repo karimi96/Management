@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         initID();
         initOnClick();
     }
-    
+
     private void initID(){
         linear_list_user = findViewById(R.id.lenear_card_list_user);
         linear_request = findViewById(R.id.lenear_card_request);
